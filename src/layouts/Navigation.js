@@ -1,12 +1,11 @@
 import { React } from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Navigation.css";
 
 
 const menuList = [
-    {name: "Main page", path: "/"},
+    {name: "Main page", path: "/", exact: true},
     {name: "Our Animals", path: "/animals"},
-    {name: "Sponsorship", path: "/sponsorship"},
+    {name: "Prices", path: "/prices"},
     {name: "Contact us", path: "/contact"},
     {name: "Admin", path: "/admin"}
 ]
@@ -14,7 +13,9 @@ const menuList = [
 const Navigation = () => {
     const menu = menuList.map(item => (
         <li key={item.name}>
-            <NavLink to={item.path}>{item.name}</NavLink>
+            <NavLink to={item.path} exact={item.exact ? item.exact : false}>
+                {item.name}
+            </NavLink>
         </li>
     ))
     return (
