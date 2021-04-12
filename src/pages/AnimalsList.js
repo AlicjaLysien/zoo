@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import image01 from "../images/man/01.jpg";
 import image02 from "../images/rep/01.jpg";
+import image03 from "../images/birds/01.jpg";
 
 const animals = [
-    {name: "man", image: image01},
-    {name: "rep", image: image02}
+    {name: "mammals", image: image01, describtion: "asdasd"},
+    {name: "reptiles and amphibians", image: image02, describtion: "sfaerwtbc"},
+    {name: "birds", image: image03, describtion: "describtion 03"}
 ]
 
 const AnimalsList = () => {
