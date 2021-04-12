@@ -20,7 +20,7 @@ const Header = () => {
             <Route path="/animals" render={()=> (
                 <img src={header02} />
             )} />
-            <Route path="/sponsorship" render={()=> (
+            <Route path="/prices" render={()=> (
                 <img src={header03} />
             )} />
             <Route path="/contact" render={()=> (

@@ -41,7 +41,7 @@ const HomePage = () => {
 
     return (
         <div className="home">
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             {artList}
         </div>
     );

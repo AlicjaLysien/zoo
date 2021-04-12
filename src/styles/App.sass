@@ -1,13 +1,18 @@
 @import "AllStyles"
+@import "Animals"
 @import "Article"
 @import "Contact"
 @import "Header"
 @import "Navigation"
 
+a:hover
+  text-decoration: none
+
 div.app
+  max-width: 1400px
   width: 90%
   min-height: 100vh
-  margin: 0 auto
+  margin: 20px auto
   display: flex
   flex-direction: column
 
@@ -17,8 +22,7 @@ header
   background-color: #000
   position: relative
   overflow: hidden
-  border-bottom-left-radius: 20px
-  border-bottom-right-radius: 20px
+  border-radius: 20px
 
 
 main
@@ -38,11 +42,15 @@ footer
   text-align: center
   text-transform: uppercase
   padding: 10px 0
-  border-top-left-radius: 20px
-  border-top-right-radius: 20px
+  border-radius: 20px
 
 h1
   margin-bottom: 50px
+  text-align: center
+  text-transform: uppercase
+
+h2
+  margin-bottom: 40px
   text-align: center
   text-transform: uppercase
 
@@ -53,3 +61,4 @@ h1
     display: block
   header
     flex-basis: 30vh
+    margin: 0 15px
