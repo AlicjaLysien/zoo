@@ -1,13 +1,17 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import MammalsPage from "../pages/MammalsPage";
+import ReptilesPage from "../pages/ReptilesPage";
+import BirdsPage from "../pages/BirdsPage";
 
-const Animals = (props) => {
+const Animals = () => {
     return (
             <>
-                <h1>{props.name}</h1>
+                <h1></h1>
                 <Switch>
-                    <Route path="/animals/mammals" component={ MammalsPage }/>      
+                    <Route path="/animals/mammals" component={ MammalsPage }/>
+                    <Route path="/animals/reptiles" component={ ReptilesPage }/>            
+                    <Route path="/animals/birds" component={ BirdsPage }/>   
                 </Switch>
             </>
     );

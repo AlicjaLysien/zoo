@@ -10,6 +10,7 @@ import LoginPage from "../pages/LoginPage.js";
 import ErrorPage from "../pages/ErrorPage.js";
 
 const Page = () => {
+   
     return (
         <>
         <Switch>

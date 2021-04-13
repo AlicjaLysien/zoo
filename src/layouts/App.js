@@ -5,6 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Navigation from './Navigation';
 import Page from './Page';
+import Title from './Title';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               { <Navigation /> }
             </aside>
             <section className="page">
+              { <Title /> }
               { <Page /> }
             </section>
           </main>

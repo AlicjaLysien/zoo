@@ -25,7 +25,6 @@ class ContactPage extends React.Component {
         return (
             <div className="contact">
                 <form onSubmit={this.handleSubmit}>
-                    <h2>Write to us</h2>
                     <textarea value={this.state.value}
                         placeholder={this.state.placeholder}
                         onChange={this.handleChange}></textarea>

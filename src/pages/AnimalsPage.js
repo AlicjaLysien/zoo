@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import Animals from "../components/Animals";
 
 
-const AnimalsPage = ({match}) => {
+const AnimalsPage = () => {
     
     return (
         <>
             <Link to="/animals">Back</Link>
-            <Animals name={match.params.id}/>
+            <Animals />
         </>
     );
 }

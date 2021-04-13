@@ -37,11 +37,9 @@ const HomePage = () => {
     const artList = articles.map(article =>(
         <Article key={article.id} {...article} />
     ))
-    const title = "News"
 
     return (
         <div className="home">
-            <h2>{title}</h2>
             {artList}
         </div>
     );
