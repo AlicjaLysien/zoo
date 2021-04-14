@@ -4,6 +4,7 @@ import article01 from "../images/article01.jpg";
 import article02 from "../images/article02.jpg";
 import article03 from "../images/article03.jpg";
 import article04 from "../images/article04.jpg";
+import { Pagination, paginationBasic} from "react-bootstrap";
 
 const articles = [
     {
@@ -31,6 +32,8 @@ const articles = [
         image: article04
     }
 ];
+
+
 
 const HomePage = () => {
 
