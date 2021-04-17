@@ -10,19 +10,19 @@ import LoginPage from "../pages/LoginPage.js";
 import ErrorPage from "../pages/ErrorPage.js";
 
 const Page = () => {
-   
+
     return (
         <>
-        <Switch>
-            <Route path="/" exact component={ HomePage }/>
-            <Route path="/animals" exact component={ AnimalsList }/>
-            <Route path="/animals/:id" component={ AnimalsPage }/>
-            <Route path="/prices" component={ PricesPage }/>
-            <Route path="/contact" component={ ContactPage }/>
-            <Route path="/admin" component={ AdminPage }/>
-            <Route path="/login" component={ LoginPage }/>
-            <Route component={ ErrorPage }/>
-        </Switch>
+            <Switch>
+                <Route path="/" exact component={HomePage} />
+                <Route path="/animals" exact component={AnimalsList} />
+                <Route path="/animals/:id" component={AnimalsPage} />
+                <Route path="/prices" component={PricesPage} />
+                <Route path="/contact" component={ContactPage} />
+                <Route path="/admin" component={AdminPage} />
+                <Route path="/login" component={LoginPage} />
+                <Route component={ErrorPage} />
+            </Switch>
         </>
     );
 }
