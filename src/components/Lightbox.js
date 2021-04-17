@@ -16,7 +16,7 @@ export default class LightboxGallery extends Component {
     const { photoIndex, isOpen } = this.state;
  
   const photo = this.props.images.map((item,index) => (
-    <div onClick={() => this.setState({ isOpen: true, photoIndex:  index  })}  className="col-md-4 Light">
+    <div onClick={() => this.setState({ isOpen: true, photoIndex:  index  })}  className="col-md-4 col-6 Light">
       <div className="bg" style={{backgroundImage: `url(${item})`}}></div>
     </div>
   ))

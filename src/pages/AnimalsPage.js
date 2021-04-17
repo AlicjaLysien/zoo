@@ -7,7 +7,7 @@ const AnimalsPage = () => {
     
     return (
         <>
-            <Link to="/animals">Back</Link>
+            <Link class="back" to="/animals">Back</Link>
             <Animals />
         </>
     );

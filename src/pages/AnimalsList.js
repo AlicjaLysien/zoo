@@ -13,7 +13,7 @@ const animals = [
 const AnimalsList = () => {
 
     const list = animals.map(item => (
-        <Link to={`/animals/${item.url}`} className="col-md-4" >
+        <Link to={`/animals/${item.url}`} className="col-md-4 col-sm-6" >
             <div className="bg" style={{backgroundImage: `url(${item.image})`}}>
             </div>
             <div className="link">

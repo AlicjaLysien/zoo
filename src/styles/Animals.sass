@@ -12,15 +12,15 @@
         border-radius: 20px
     .link
         color: #fff
-        background-color: green
+        background-color: $MainGreen
         border-radius: 20px
         text-align: center
         margin: 0 auto
         padding: 10px
     .link:hover
         text-decoration: none
-
-    
+        background-color: $HoverGreen
+   
 .Light
     .bg
         display: flex
@@ -32,3 +32,31 @@
         margin: 10px 0px
         border-radius: 20px
         cursor: pointer
+
+.bg:hover
+    opacity: 0.8
+
+.back
+    display: block
+    color: #fff
+    background-color: $MainGreen
+    border-radius: 12px
+    font-size: 16px
+    text-align: center
+    width: 60px
+    margin-left: 15px
+    padding: 3px 0px
+.back:hover
+    color: #fff
+    text-decoration: none
+    background-color: $HoverGreen
+
+@media(max-width: $SmallScreenSize)
+    .animals-list, .Light
+        .bg      
+            height: 220px  
+
+@media(max-width: $XSmallScreenSize)
+    .animals-list, .Light
+        .bg      
+            height: 150px  
