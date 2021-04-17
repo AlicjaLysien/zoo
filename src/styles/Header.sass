@@ -1,10 +1,21 @@
 @import "AllStyles"
 
 header
-    img
-        position: absolute
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
-        min-width: 100%
-        min-height: 100%
+    .bg
+        height: 100%
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: cover
+        border-radius: 20px
+        cursor: pointer
+    .overlay
+        background-color: rgba(0,0,0,0.6)
+        height: 100%
+        width: 100%
+
+.CarouselItem
+    height: 50vh
+
+@media(max-width: $SmallScreenSize)
+    .CarouselItem
+        height: 30vh
