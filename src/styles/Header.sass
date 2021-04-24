@@ -16,6 +16,33 @@ header
 .CarouselItem
     height: 40vh
 
+.carousel-control-next
+    display: none
+.carousel-control-prev
+    display: none
+
+.carousel-indicators
+    li
+        background-clip: initial
+        box-sizing: border-box
+        border-top: none
+        height: 15px
+        width: 15px
+        border-radius: 15px
+        padding: 0
+        margin: 0 5px
+
+h3.title
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    color: 
+
 @media(max-width: $SmallScreenSize)
     .CarouselItem
         height: 30vh
+    h3.title
+        font-size: 32px
+        text-align: center
+        color: #fff

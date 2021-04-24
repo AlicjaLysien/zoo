@@ -7,7 +7,6 @@ import BirdsPage from "../pages/BirdsPage";
 const Animals = () => {
     return (
             <>
-                <h1></h1>
                 <Switch>
                     <Route path="/animals/mammals" component={ MammalsPage }/>
                     <Route path="/animals/reptiles" component={ ReptilesPage }/>            

@@ -9,7 +9,9 @@
         background-repeat: no-repeat
         background-size: cover
         margin: 10px 0px
-        border-radius: 20px
+        border-radius: $Radius
+    .bg:hover
+        opacity: $LinksOpacity
     .link
         color: #fff
         background-color: $MainGreen
@@ -30,23 +32,21 @@
         background-repeat: no-repeat
         background-size: cover
         margin: 10px 0px
-        border-radius: 20px
+        border-radius: $Radius
         cursor: pointer
-
-a
     .bg:hover
-        opacity: 0.8
+        opacity: $LinksOpacity
 
 .back
     display: block
     color: #fff
     background-color: $MainGreen
-    border-radius: 12px
+    border-radius: $Radius
     font-size: 16px
     text-align: center
-    width: 60px
+    display: inline-block
     margin-left: 15px
-    padding: 3px 0px
+    padding: $ButtonPadding
 .back:hover
     color: #fff
     text-decoration: none

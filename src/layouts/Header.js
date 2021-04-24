@@ -12,23 +12,21 @@ const photos = [header01, header02, header03, header04, header05]
 const Header = () => {
 
     const slider = photos.map(photo => (
-        <Carousel.Item className="CarouselItem">
-            
+        <Carousel.Item className="CarouselItem">         
             <div className="bg" style={{backgroundImage: `url(${photo})`}}>
                 <div className="overlay"></div>
             </div>
-        
-        <Carousel.Caption>
-          <h3>Welcome!</h3>
-          <p>Zoo</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+            <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
     ))
 
     return(
-    <Carousel>
-        {slider}
-    </Carousel>
+    <>
+        <Carousel>
+            {slider}
+        </Carousel>
+    <h3 className="title">Welcome to Zoo!</h3>
+    </>
     );
 }
 
