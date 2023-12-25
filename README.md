@@ -29,4 +29,4 @@ Favicon used from: https://icons8.com/icon/set/lion/group-color <br/>
 Free images used from: [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/)
 
 ## Preview
-![Image - preview of my page](/public/images/readme-example.png)
+![Image - preview of my page](./public/readme-example.png)
