@@ -1,15 +1,13 @@
 # 🐘 Zoo app
 
-My first React app.
+**My first React app.**
 
 ## ℹ About
 This is my first React app with which I was studying basic concepts of React. The page present website of fictional zoo. 
 
 ## 💻 Technologies
-<img src="./public/icons/react.svg" width="22"> 
-<img src="./public/icons/javascript.svg" width="22"> 
-<img src="./public/icons/sass.svg" width="22"> 
-<img src="./public/icons/bootstrap.svg" width="22"> 
+<img src="./public/icons/react.svg" width="22"><img src="./public/icons/javascript.svg" width="22"><img src="./public/icons/sass.svg" width="22"><img src="./public/icons/bootstrap.svg" width="22">
+
 - React
 - React-router
 - Javascript
@@ -17,7 +15,7 @@ This is my first React app with which I was studying basic concepts of React. Th
 - SASS
 - Lightbox.js
 
-### ⚙️ Scripts
+## ⚙️ Scripts
 
 to run the project locally:
 
@@ -25,5 +23,7 @@ to run the project locally:
 npm start
 ``
 
-Favicon used from: https://icons8.com/icon/set/lion/group-color
+##
+
+Favicon used from: https://icons8.com/icon/set/lion/group-color <br/>
 Free images used from: [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/)
