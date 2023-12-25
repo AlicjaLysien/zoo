@@ -20,7 +20,7 @@ class ContactPage extends React.Component {
             value: e.target.value
         })
     }
-
+    
     render() {
         return (
             <div className="contact">

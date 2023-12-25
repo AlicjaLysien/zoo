@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
+import 'animate.css';
 
 const Title = (props) => {
 console.log(props);
@@ -7,7 +8,7 @@ console.log(props);
         <>
         <Switch>
             <Route path="/" exact render={()=> (
-                <h1>News</h1>
+                <h1 class="news">News</h1>
             )} />
             <Route path="/animals" render={()=> (
                 <h1>Animals</h1>
